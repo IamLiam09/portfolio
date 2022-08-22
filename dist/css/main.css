@@ -73,16 +73,12 @@
   border-bottom: 5px solid #ff652f;
 }
 .skills .naming__imglanguage h2, .skills .naming__imglanguage h3 {
-  margin: 0.9rem 0;
+  margin: 1.5rem 0;
 }
 .skills .naming__imglanguage h6 {
   margin: 0.3rem 0;
 }
-.skills .naming__imglanguage li {
-  list-style: none;
-  padding: 3px;
-}
-.skills .social-icons {
+.skills .naming .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,7 +87,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.skills footer {
+.skills .naming footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
@@ -290,7 +286,7 @@
 }
 .about .jobs__job li {
   list-style: none;
-  padding: 3px;
+  padding: 5px;
 }
 .about .social-icons {
   display: -webkit-box;
