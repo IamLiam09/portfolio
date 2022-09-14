@@ -39,7 +39,15 @@
         grid-template-columns: 1fr;
         grid-gap: 2rem;
 
-
+        &__Workexp{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            h3{
+                font-size: 2rem;
+            }
+        }
         &__job{
             background: lighten($primay-color, 10%);
             padding: 0.5rem;
